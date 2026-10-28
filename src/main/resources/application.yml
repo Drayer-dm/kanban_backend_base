@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: kanban-backend-base
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
   datasource:
     # Cambia el puerto/usuario/clave con variables de entorno si tu Postgres es distinto
     url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:kanban_db}
