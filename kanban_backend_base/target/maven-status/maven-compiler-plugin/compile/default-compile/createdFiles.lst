@@ -1,0 +1,10 @@
+cl/ipss/kanban/exception/MovimientoInvalidoException.class
+cl/ipss/kanban/exception/GlobalExceptionHandler.class
+cl/ipss/kanban/exception/ApiError.class
+cl/ipss/kanban/exception/LimiteEnCursoExcedidoException.class
+cl/ipss/kanban/service/impl/TareaServiceImpl.class
+cl/ipss/kanban/controller/TareaController.class
+cl/ipss/kanban/config/CorsConfig.class
+cl/ipss/kanban/config/SwaggerConfig.class
+cl/ipss/kanban/exception/TareaHechaNoEditableException.class
+cl/ipss/kanban/config/CorsConfig$1.class
